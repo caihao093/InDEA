@@ -44,7 +44,7 @@ struct pair
     DATATYPE_SAMPLESIZE count;
 };
 
-/* for RankComp V2.0 */
+
 struct gene_state
 {
     unsigned char state;  //rightmost two bits for in the same or reversed pairs
@@ -55,7 +55,7 @@ struct gene_state
     double p;             //hyergeometric test value
 };
 
-/* for RankComp (original) */
+
 struct gene_state2
 {
     unsigned char state;  //rightmost two bits for in the same or reversed pairs
