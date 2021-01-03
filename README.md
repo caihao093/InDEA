@@ -34,6 +34,7 @@ InDEA 2 20572 normal.dat disease.dat 207 25 10
 ```
 
 The input data sets should be given as text-based data matrix data files. One file contains the microarray value matrix of one group of samples. The number of rows corresponds to the total number of gene probes and the number of columns corresponds to the sample size. The values should be tab or space delimited. It should be noticed that the number of genes within normal sample data and disease sample data should be the same.
+
 The output of dysregulated genes is given by the indices (starting from 0). The output matrix (.dat file) contains the dysregulate status of every gene in every disease samples. There are three possible states for each gene: 0, non-dysregulated genes; 1, down-regulated genes; 2, up-regulated genes.
 
 
