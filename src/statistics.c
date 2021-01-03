@@ -1,13 +1,3 @@
-/**************************************************************************
- *  stat.c: Basic Statistics Functions
- *
- *  Xianlong Wang, Ph.D. 
- *  University of Electronic Science and Technology of China. 
- *  Email: Wang.Xianlong@139.com
- *
- *  Initialization. Oct. 25, 2016.
- **************************************************************************/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
