@@ -7,7 +7,7 @@ The analysis of InDEA start with Determination of the background list. Gene pair
 # Install
 There are two possible ways to install the program.
 
-1.Install from the Precompiled Execulables. Just copy the binary file to the folder where the executables are located, such as `/usr/local/bin`. Make sure the files have the executable permission. If it does not, use `chmod 755 InDEA` to make the modification. 
+1.Install from the Precompiled Execulables. Just copy the binary file (InDEA) to the folder where the executables are located, such as `/usr/local/bin`. Make sure the files have the executable permission. If it does not, use `chmod 755 InDEA` to make the modification. 
 
 2.Compile from the Source Files. Under the src folder, use `gcc` tool to compile the sources. Notably, `-lm` and `-fopenmp` option is needed while using `gcc` command.
 e.g. `gcc main.c indea.c statistics.c -fopenmp -lm -o InDEA`
